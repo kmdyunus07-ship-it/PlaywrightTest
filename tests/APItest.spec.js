@@ -21,3 +21,4 @@ test("api test post user", async ({ request }) => {
   await expect(response.status()).toBe(201);
   console.log(await response.json());
 });
+ 
