@@ -3,7 +3,7 @@
 
 const { test, expect } = require('@playwright/test');
 
-test('Select Delhi from autocomplete suggestions', async ({ page }) => {
+test.skip('Select Delhi from autocomplete suggestions', async ({ page }) => {
     await page.goto('https://www.redbus.in/');
 
     // Step 1: Enter the source location

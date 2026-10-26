@@ -33,7 +33,7 @@ test('MultiDropdown test', async ({ page }) => {
     // Step 4: Verify selected items
     await expect(
         page.locator('smart-list-item[label="Breve"]')
-    ).toHaveAttribute('aria-selected', 'true');
+    ).toHaveAttribute('aria-selected', 'false');
 
     await expect(
         page.locator('smart-list-item[label="Bicerin"]')

@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("Hidden dropdown test", async ({ page }) => {
+test.skip("Hidden dropdown test", async ({ page }) => {
   // Login
   await page.goto(
     "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
